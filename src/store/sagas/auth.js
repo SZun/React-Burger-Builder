@@ -24,10 +24,10 @@ export function* authUserSaga(action) {
     returnSecureToken: true
   };
   let url =
-    "https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyAUFuiR5ovIKkrDSIfTPOSC4HWhfPKUs6E";
+    "https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key="; // Add your own firebase key here
   if (!action.isSignup) {
     url =
-      "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyAUFuiR5ovIKkrDSIfTPOSC4HWhfPKUs6E";
+      "https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key="; // Add your own firebase key here
   }
   try {
     const response = yield axios.post(url, authData);
