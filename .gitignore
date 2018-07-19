@@ -18,7 +18,6 @@
 .firebaserc
 firebase.json
 how-to-use.txt
-README.md
 
 npm-debug.log*
 yarn-debug.log*
