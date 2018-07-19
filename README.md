@@ -1,6 +1,6 @@
 # React My Burger
 
-An application which allows customers to create and order burgers. The project uses ReactJS on the front-end with a Friebase backend. Using Reacted allowed for great performance including being a single page app, and allowing for lazy loading. Through Firebase's REST API one is able to create their own account and session as well as have access to their order history.
+An application which allows customers to create and order burgers. The project uses ReactJS on the front-end with a Firebase backend. Using Reacted allowed for great performance including being a single page app, and allowing for lazy loading. Through Firebase's REST API one is able to create their own account and session as well as have access to their order history.
 
 ## [Deployed Here](https://react-my-burger-2020f.firebaseapp.com/)
 
