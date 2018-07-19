@@ -10,10 +10,10 @@ An application which allows customers to create and order burgers. The project u
 
 ### Prerequisites
 
-Installing Create-React-Native-App and the latest versions of NPM and Node.
+Installing Create-React-App and the latest versions of NPM and Node.
 
 ```
-$ npm i -g create-react-native-app@latest
+$ npm i -g create-react-app@latest
 $ npm i -g node@latest
 $ npm i -g npm@latest
 ```
